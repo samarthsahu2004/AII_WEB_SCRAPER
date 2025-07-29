@@ -6,7 +6,7 @@ import os
 
 load_dotenv()
 
-SBR_WEBDRIVER ='https://brd-customer-hl_eed3fc24-zone-web_unlocker1:sb9exvi620br@brd.superproxy.io:9515'
+SBR_WEBDRIVER =<ENTER YOUR BRIGHT DATA API KEY>
 
 
 def scrape_website(website):
