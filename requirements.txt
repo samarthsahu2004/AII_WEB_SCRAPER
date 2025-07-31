@@ -1,6 +1,7 @@
 streamlit 
-langchain 
-langchain_ollama
+scrape
+google.generativeai
+typing
 selenium
 beautifulsoup4
 lxml 
