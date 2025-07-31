@@ -46,7 +46,7 @@ if "dom_content" in st.session_state:
         if parse_description:
             st.write("Parsing the content...")
 
-            # Parse the content with Ollama
+            # Parse the content with GEMINI
             dom_chunks = split_dom_content(st.session_state.dom_content)
             parsed_result = parse_with_gemini(dom_chunks, parse_description)
             st.write(parsed_result)
